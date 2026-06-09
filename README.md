@@ -10,6 +10,17 @@ LLMMonitor is a **CPU LLM monitor** and **llama.cpp optimizer** for Windows — 
 [![ik_llama.cpp](https://img.shields.io/badge/ik__llama.cpp-AVX--512-orange)](https://github.com/ikawrakow/ik_llama.cpp)
 [![Admin](https://img.shields.io/badge/Run%20as-Administrator-red)]()
 
+## Screenshots
+
+**Dashboard** — per-core heatmap, Beast Score, NUMA & memory monitoring:
+
+![LLMMonitor Dashboard — CPU cores, CCD usage, Beast Score](images/dashboard.png)
+
+**LLM Optimizer** — presets, CCD thread pinning, recommended `-t` / `-b` / `-c`, live tok/s:
+
+![LLMMonitor LLM Optimizer — thread tuning and CCD pinning](images/llmoptimizer.png)
+
+[Download](https://github.com/marchinthesun/EPYC-Max-Inference-LLM-Optimizer/releases/download/b9549/LLMMonitor.zip)
 ---
 
 ## ⚠️ Run as Administrator (required)
@@ -127,17 +138,6 @@ Built-in **AMD Ryzen LLM benchmark** and **Intel Core LLM tuning** — compare d
 ## Download
 
 **Requirements:** Windows 10/11 x64, [Node.js 20+](https://nodejs.org/) and [Rust](https://rustup.rs/) for building from source.
-
-```bash
-# Pre-built installer (run as Administrator)
-src-tauri/target/release/bundle/nsis/LLMMonitor_0.2.0_x64-setup.exe
-
-# Build from source
-git clone https://github.com/YOUR_USER/llmmonitor.git
-cd llmmonitor && npm install && npm run tauri build
-```
-
-Single `.exe` installer, ~15 MB, no bloatware.
 
 ---
 
